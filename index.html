@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Champaign-Urbana Quiz App</title>
+    <meta name="description" content="Test your knowledge of Illinois small city Champaign-Urbana">
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  </head>
+
+  <body>
+    
+      <section class="headlineSection" role="section">
+        <div class="headlineContainer">
+          <h1>Show How Much You Know About Champaign-Urbana</h1>
+        </div>
+      </section>
+
+      <section class="questionSection" role="section">
+       <div class="questionArea">
+          <!-- <button type="button" class="startButton">Take the Quiz!</button> -->
+          <div class="templateContainer">
+                
+            <form id="formOne">
+
+            <fieldset>
+            
+            <p>
+            <legend>
+            Question goes here
+            </legend>
+            </p>
+
+            <label for="inputOne">
+            <input id = "inputOne"  type="radio" name="a" value="ans1" checked id="inputOne">
+            Possbile answer one
+            </label>
+            <br>
+           
+            <label for="inputTwo">
+            <input id="inputTwo"  type="radio" name="a" value="ans2"> 
+            Possible answer two
+            </label>
+            <br>
+
+            <label for="inputThree">
+            <input id="inputThree" type="radio" name="a" value="ans3"> 
+            Possible answer three
+            </label>
+            <br>
+
+            <label for="inputFour">
+            <input id="inputFour" type="radio" name="a" value="ans4">
+            Possible answer four
+            </label>
+            <br>
+
+            <label for="submitButton">
+            <input class="submitButton" type="submit" value="Send">
+            </label>
+
+            </fieldset>
+
+            </form>
+
+            <p>Question number: (current question) out of 10 questions</p>
+            </div>
+       </div>
+      </section>
+        
+      <section class="resultsSection" role="section">
+        <div class="resultsContainer">
+          <p class="numberRight">Questions answered correctly: 0</p> 
+        </div>
+      </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+
+  </body>
+  
+</html>
+
+
+    
+        
+
+    
+ 
